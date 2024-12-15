@@ -1,7 +1,6 @@
 package com.vestuario.lori.curso.vestuario;
 
-public interface VesteRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
 
-
-
+public interface VesteRepository extends JpaRepository<Veste, Long> {
 }

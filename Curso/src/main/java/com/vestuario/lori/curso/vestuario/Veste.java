@@ -23,4 +23,12 @@ public class Veste {
     private Integer quantidade;
     private Double preco;
 
+    public Veste(DadosCadastroVeste dados) {
+        this.nome = dados.nome();
+        this.marca = dados.marca();
+        this.categoria = dados.categoria();
+        this.cor = dados.cor();
+        this.quantidade = dados.quantidade();
+        this.preco = dados.preco();
+    }
 }
